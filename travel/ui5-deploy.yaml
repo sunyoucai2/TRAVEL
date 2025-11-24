@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "3.1"
+metadata:
+  name: travel
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          destination: abap-cloud-default_abap-canary-cn_sdc_tenant_cn-sdc-subaccount-eu12-oi6oims3-abap-dev
+          url: https://23585ef6-5c8a-440f-86bd-e133b61ad92f.abap.canary-eu12.abapcp.int.sap/
+          scp: true
+        app:
+          name: ZRAP100_CAI
+          description: Travel
+          package: ZRAP100_CAI
+          transport: ''
+        exclude:
+          - /test/

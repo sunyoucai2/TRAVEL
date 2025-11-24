@@ -1,0 +1,29 @@
+{
+  "generationParameters": {
+    "generationDate": "Mon Nov 24 2025 04:50:36 GMT+0000 (Coordinated Universal Time)",
+    "generatorPlatform": "SAP Business Application Studio",
+    "serviceType": "SAP System (ABAP Cloud)",
+    "metadataFilename": "",
+    "serviceUrl": "https://23585ef6-5c8a-440f-86bd-e133b61ad92f.abap.canary-eu12.abapcp.int.sap/sap/opu/odata4/sap/zui_rap100_atravcai_o4/srvd/sap/zui_rap100_atravcai_o4/0001/",
+    "appName": "travel",
+    "appTitle": "Travel",
+    "appDescription": "Travel",
+    "appNamespace": "",
+    "ui5Theme": "sap_horizon",
+    "ui5Version": "1.139.3",
+    "enableCodeAssist": false,
+    "enableEslint": false,
+    "enableTypeScript": false,
+    "showMockDataInfo": true,
+    "generatorVersion": "1.19.5",
+    "template": "List Report Page V4",
+    "generatorName": "SAP Fiori Application Generator",
+    "entityRelatedConfig": [
+      {
+        "type": "Main Entity",
+        "value": "ZC_RAP100_ATRAVCAI"
+      }
+    ],
+    "launchText": "To launch the generated application, run the following from the generated application root folder:\n\n```\n    npm start\n```"
+  }
+}
